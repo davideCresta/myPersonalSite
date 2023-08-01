@@ -1,2 +1,70 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 
+mat-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(253, 253, 253, 0.368);
+}
+
+.mat-tab-label {
+  color: white;
+}
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.prof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: rgb(2, 103, 90);
+  font-size: large
+}
+
+.form {
+  color: rgb(2, 103, 90);
+}
+
+.work {
+  color: rgb(2, 103, 90);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Bowlby One SC';
+  color: rgb(2, 103, 90);
+  margin: 20px 20px;
+}
+
+.text {
+  color: rgb(70, 68, 68);
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  color: rgb(70, 68, 68);
+}
+
+@media only screen and (max-device-width: 480px) {
+  .prof {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
